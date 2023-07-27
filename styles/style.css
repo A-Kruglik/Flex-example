@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(206, 236, 234);
+    font-family: 'Lumanosimo', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container {
+    margin: 10px auto;
+    max-width: 1200px;
+    text-align: center;
+    border: 2px solid black;
+    background: 
+    linear-gradient(rgb(161, 221, 230, 0.350), rgb(220, 220, 240, 0.350)),
+    url('../img/bali-back.jpg') center/cover no-repeat;
+    background-attachment: fixed;
+}
+
+.header__title, .header__sub-title {
+    color: rgb(0, 0, 0);
+}
+
+.header__img {
+    background: url('../img/bali_head.jpg') center/cover no-repeat;
+    max-width: 600px;
+    height: 350px;
+    margin: 0 auto;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.about__description {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    column-gap: 10px;
+    row-gap: 5px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about__description__img {
+    background: url('../img/bali_head2.jpeg') center/cover no-repeat;
+    width: 300px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.about__description__text {
+    max-width: 300px;
+    height: 150px;
+    padding: 10px;
+    border: 2px solid black;
+    align-self: center;
+    text-align: left;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: rgb(176, 224, 243, 0.700);
+}
+
+hr {
+    max-width: 200px;
+    margin: 20px auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.photos__nums {
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+}
+
+.photos__nums__num1 {
+    background: url('../img/bali1.jpg') center/cover no-repeat;
+    width: 300px;
+    height: 150px;
+    border: 2px solid rgb(41, 53, 50);
+    border-radius: 10px;
+}
+
+.photos__nums__num2 {
+    background: url('../img/bali2.jpg') center/cover no-repeat;
+    width: 300px;
+    height: 150px;
+    border: 2px solid rgb(41, 53, 50);
+    border-radius: 10px;
+}
+
+.photos__nums__num3 {
+    background: url('../img/bali3.jpg') center/cover no-repeat;
+    width: 300px;
+    height: 150px;
+    border: 2px solid rgb(41, 53, 50);
+    border-radius: 10px;
+}
+
+.photos__nums__num4 {
+    background: url('../img/bali4.jpg') center/cover no-repeat;
+    width: 300px;
+    height: 150px;
+    border: 2px solid rgb(41, 53, 50);
+    border-radius: 10px;
+}
+
+.photos__nums__num5 {
+    background: url('../img/bali5.jpg') center/cover no-repeat;
+    width: 300px;
+    height: 150px;
+    border: 2px solid rgb(41, 53, 50);
+    border-radius: 10px;
+}
+
+.photos__nums__num6 {
+    background: url('../img/bali6.jpg') center/cover no-repeat;
+    width: 300px;
+    height: 150px;
+    border: 2px solid rgb(41, 53, 50);
+    border-radius: 10px;
+}
+
+.foot-container {
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.foot-container__contact {
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    row-gap: 30px;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.foot-container__contact li, .foot-container__contact a  {
+    list-style: none;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: none;
+}
+
+.foot-container__contact li:hover, .foot-container__contact a:hover {
+    color: skyblue;
+}
+
+.foot-container__icons {
+    display: flex;
+    text-align: right;
+    justify-content: center;
+    align-items: center;
+    column-gap: 70px;
+    flex-direction: row;
+    font-size: 3rem;
+    padding: 20px;
+}
+
+.insta a, .telegram a, .whatsapp a {
+    color: black;
+}
+
+.insta a:hover, .telegram a:hover, .whatsapp a:hover {
+    color: skyblue;
+}
